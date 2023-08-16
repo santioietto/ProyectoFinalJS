@@ -1,0 +1,80 @@
+.tamañologo{
+    width: 30%;
+}
+
+.tamaño{
+    width: 100%;
+}
+
+.masgrande{
+    font-size: 1rem;
+}
+
+.producto{
+    font-size: 1.2rem;
+}
+
+.carritotamaño{
+    font-size: 1rem;
+}
+
+.centrar{
+    justify-content: center;
+    background-color: transparent;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    display: block;
+    font-weight: normal;
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolar-card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dolar-card h2 {
+    background-color: #444;
+    color: white; 
+    padding: 3px;
+    margin: 0; 
+}
+
+.dolar-card p {
+    background-color: #f0f0f0;
+    padding: 3px;
+    margin: 0; 
+}
+
+
+
+@media (max-width: 768px) {
+    .contenedor{
+        flex-wrap: nowrap;
+    }
+    .dolar-card {
+        width: calc(50% - 20px);
+    }
+}
